@@ -1,2 +1,0 @@
-vsce package
-code --install-extension forge-syntax-0.1.0.vsix
