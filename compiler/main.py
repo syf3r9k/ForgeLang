@@ -1,15 +1,17 @@
 #compiler
 from lexer.lexer import lexer
+import sys
 
-path = "tests/main.frg"
+path = "main.frg"
 
 version = "0.1"
 
 
 def main():
-    with open(path, 'r') as main_code:
-        code = main_code.read()
-    tokens = lexer(code)
-    print(tokens)
+    #with open(path, 'r') as main_code:
+        #code = main_code.read()
+    #tokens = lexer(code)
+    #print(tokens)
+    print(sys.argv)
 
 main()
