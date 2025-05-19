@@ -6,9 +6,6 @@
 
 - ✅ **Static Typing** — all types are known at compile time.
 - ⚙️ **LLVM-based Compilation** — generates highly efficient machine code.
-- 🧱 **C-style Syntax**, but simpler and more modern.
-- 🔩 **Object-Oriented via Structs and Methods**, like in Rust.
-- 📦 **Minimal Language Core** — everything needed for building serious applications.
 - 🧠 **Compiler Written in Python**, easy to read and extend.
 
 ## 🧪 Code Example
@@ -18,3 +15,5 @@ fun main() {
     outln("Hello, Forge!");
 }
 ```
+
+# currently in development
