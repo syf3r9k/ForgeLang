@@ -1,19 +1,20 @@
 # 🔥 Forge Programming Language
 
-**Forge** — это статически типизируемый, компилируемый язык программирования с современным синтаксисом и мощной системой типов. Он компилируется в эффективный машинный код с помощью LLVM и подходит как для системного программирования, так и для создания надёжного прикладного ПО.
+**Forge** is a statically typed, compiled programming language with modern syntax and a powerful type system. It compiles to efficient machine code using LLVM and is suitable for both systems programming and creating reliable application software.
 
-## ✨ Особенности
+## ✨ Features
 
-- ✅ **Статическая типизация** — все типы известны во время компиляции.
-- ⚙️ **Компиляция через LLVM** — высокоэффективный машинный код.
-- 🧱 **Синтаксис в стиле C**, но проще и современнее.
-- 🔩 **Объектно-ориентированность через структуры и методы**, как в Rust.
-- 📦 **Минимальное ядро языка** — всё, что нужно для создания серьёзных приложений.
-- 🧠 **Компилятор написан на Python**, легко читаемый и расширяемый.
+- ✅ **Static Typing** — all types are known at compile time.
+- ⚙️ **LLVM-based Compilation** — generates highly efficient machine code.
+- 🧱 **C-style Syntax**, but simpler and more modern.
+- 🔩 **Object-Oriented via Structs and Methods**, like in Rust.
+- 📦 **Minimal Language Core** — everything needed for building serious applications.
+- 🧠 **Compiler Written in Python**, easy to read and extend.
 
-## 🧪 Пример кода
+## 🧪 Code Example
 
 ```forge
 fun main() {
     outln("Hello, Forge!");
 }
+```
