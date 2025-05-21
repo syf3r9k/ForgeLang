@@ -1,4 +1,13 @@
+import "test.frg";
+
 fun main() void {
-    case mut i32 a = 5;
-    a = 6;
+    case mut strc user1 = User {
+        name:"Mikhail"
+    };
+    case string output = user1.name;
+    outln("{output}");
+}
+
+struct User {
+    name: string
 }
