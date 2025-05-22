@@ -1,0 +1,1 @@
+python compiler/main.py tests/main.frg 0

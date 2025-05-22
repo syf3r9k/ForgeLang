@@ -1,0 +1,62 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "Function",
+      "name": "main",
+      "return_type": "void",
+      "body": ["case", "mut", "strc", "user1", "=", "User", ...]
+    },
+    {
+      "type": "Struct",
+      "name": "User",
+      "fields": [
+        {"name": "name", "type": "string"}
+      ]
+    },
+    {
+      "type": "MethodBlock",
+      "struct": "User",
+      "methods": [
+        {
+          "type": "Function",
+          "name": "get_name",
+          "return_type": "string",
+          "body": ["return", "name", ";"]
+        }
+      ]
+    }
+  ]
+}
+
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "Function",
+      "name": "main",
+      "return_type": "void",
+      "body": ["case", "mut", "strc", "user1", "=", "User", ...]
+    },
+    {
+      "type": "Struct",
+      "name": "User",
+      "fields": [
+        {"name": "name", "type": "string"}
+      ]
+    },
+    {
+      "type": "MethodBlock",
+      "struct": "User",
+      "methods": [
+        {
+          "type": "Function",
+          "name": "get_name",
+          "return_type": "string",
+          "body": ["return", "name", ";"]
+        }
+      ]
+    }
+  ]
+}
+
