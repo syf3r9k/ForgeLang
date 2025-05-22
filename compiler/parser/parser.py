@@ -33,8 +33,27 @@ Token(RBRACE, }, 3, 0)]
 }
 """
 
+"""
+"fun", "struct", "met", "case", "void", "import", "as",
+"i8", "i16", "i32", "i64", "i128",
+"u8", "u16", "u32", "u64", "u128",
+"f32", "f64", "strc",
+"string", "bool",
+"out", "outln",
+"if", "elf", "els",
+"while", "for",
+"true", "false",
+"try", "catch", "always",
+"mut"
+"""
+
 def parser(all_tokens):
     for path, tokens in all_tokens.items():
         print(path)
         for t in tokens:
-            print(f"type: {t.type} value: {t.value}\n")
+            if t.type == "KEYWORD":
+                if t.value == "fun":
+                    print("function now")
+                
+
+            #print(f"type: {t.type} value: {t.value}\n")
