@@ -1,0 +1,10 @@
+{'type': 'Program', 'imports': [], 
+'body': [
+    {'type': 'Function', 'name': 'main', 'return': 'void', 'body': 
+        [{'type': 'Call', 'function': 'outln', 'args': ['"Hello, World!"']}]
+    }, 
+    {'type': 'Function', 'name': 'test', 'return': 'void', 'body': 
+    [{'type': 'Call', 'function': 'outln', 'args': ['"Hello, World!xdxd"']}]
+    }
+    ]
+}

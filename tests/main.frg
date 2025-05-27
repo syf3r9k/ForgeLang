@@ -1,5 +1,6 @@
-import "test.frg" as t;
-
 fun main() void {
-    t.test_function();
+    case mut a i8 = 5;
+    if (a == 5) {
+        outln("number is 5");
+    }
 }
